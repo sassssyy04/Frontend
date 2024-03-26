@@ -1,0 +1,84 @@
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .formContainer {
+    min-width: 603px;
+    margin-left: 400px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .questionLabel,
+  .fileLabel {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .questionInput {
+    width: 100%;
+    color: black;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  .fileInput {
+    width: 100%;
+    color: white;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .fileInputContainer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .uploadButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .uploadButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .submitBtn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    min-width: 628px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitBtn:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .resultOutput {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
