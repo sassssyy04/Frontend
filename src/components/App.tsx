@@ -13,6 +13,7 @@ export default function App() {
 
   const handleQuestionChange = (event: ChangeEvent<HTMLInputElement>) => {
     setQuestion(event.target.value);
+    setResult(undefined);
   };
 
   const handleFileChange = async (event: ChangeEvent<HTMLInputElement>) => {
@@ -26,6 +27,7 @@ export default function App() {
         // Display the dialog popup after the file is uploaded
         setNotificationMessage("File uploaded properly");
         setNotificationOpen(true);
+        setResult(undefined);
   
         // You can remove the notification from here if you don't want to display it here
       } catch (error) {
