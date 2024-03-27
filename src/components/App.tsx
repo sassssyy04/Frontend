@@ -51,7 +51,7 @@ export default function App() {
     //   setNotificationMessage("File uploaded properly");
     //   setNotificationOpen(true);
 
-      const response = await fetch("http://4.156.127.156/predict", {
+      const response = await fetch("https://protondemo.azurewebsites.net/predict", {
         method: "POST",
         body: formData,
       });
